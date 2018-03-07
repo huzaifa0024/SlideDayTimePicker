@@ -48,7 +48,7 @@ public class DayFragment extends Fragment
 
         try
         {
-            mCallback = (DayChangedListener) getTargetFragment();
+            mCallback = (DayChangedListener) getParentFragment();
         }
         catch (ClassCastException e)
         {
